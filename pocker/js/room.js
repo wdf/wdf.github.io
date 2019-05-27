@@ -49,6 +49,7 @@ $shuffle.addEventListener('click', function () {
 //     deck.bysuit()
 // })
 $fan.addEventListener('click', function () {
+    deck.flip("back");
     deck.fan()
     deck.shuffle()
     deck.sort(true)
