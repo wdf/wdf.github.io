@@ -611,7 +611,7 @@ var Deck = (function () {
 
   var poker = {
     deck: function deck(_deck4) {
-      var postions = [{x: -130, y: 140, r: 0, xo: 65}, {x: 100, y: -240, r: -180, xo: 10}, {x: -90, y: -240, r: 180, xo: -10}];
+      var postions = [{x: -130, y: 140, r: 0, xo: 65}, {x: 100, y: -200, r: -180, xo: 10}, {x: -90, y: -200, r: 180, xo: -10}];
       _deck4.poker = _deck4.queued(poker);
 
       function poker(next, data) {
